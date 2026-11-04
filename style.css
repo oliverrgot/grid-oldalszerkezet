@@ -1,0 +1,43 @@
+main{
+    display: grid;
+    grid-template-columns: 200px 2fr 1fr ;
+    grid-template-areas: "h h h";
+                         "n n n"
+                        "as t1 t2 ass"
+                        ""
+}
+
+header{
+    grid-area: h;
+    background-color: aquamarine;
+}
+
+nav{
+    grid-area: n;
+    background-color: lightblue;
+}
+
+aside{
+    grid-area: as;
+    background-color: blanchedalmond;
+}
+
+.tart1{
+    grid-area: t1;
+    background-color:azure
+}
+
+.tart2{
+    grid-area: t2;
+    background-color: brown;
+}
+
+.aside{
+    grid-area: ass;
+    background-color: burlywood;
+}
+
+footer{
+    grid-area: f;
+    background-color: yellowgreen;
+}
